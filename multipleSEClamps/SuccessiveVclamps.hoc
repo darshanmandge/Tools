@@ -1,0 +1,11 @@
+load_file("nrngui.hoc")
+
+create soma
+insert hh
+
+v_init = -65
+tstop = 500
+objref clmp
+soma clmp = new SEClamp2pulse(0.5)
+
+xopen("t.ses")
