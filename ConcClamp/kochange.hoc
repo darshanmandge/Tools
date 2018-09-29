@@ -1,0 +1,36 @@
+load_file("nrngui.hoc")
+nrncontrolmenu()
+tstop = 50
+
+create cell
+
+insert hh
+insert ionconc
+
+objref kograph, vgraph
+kograph = new Graph(0)
+kograph.size(0,51,2,15)
+kograph.view(0, 2, 51, 13, 422, 216, 299.52, 199.38)
+graphList[2].append(kograph)
+kograph.addvar("cell.ko( 0.5 )", 1, 1, 0.8, 0.9, 2)
+
+
+vgraph = new Graph(0)
+vgraph.size(0,50,-80,40)
+vgraph.view(0, -80, 50, 120, 421, 642, 299.52, 199.38)
+graphList[0].append(vgraph)
+vgraph.addexpr("cell.v( 0.5 )", 1, 1, 0.8, 0.9, 2)
+
+{
+xpanel("[K]o (Parameters)", 0)
+xlabel("[K]o (Parameters)")
+cell.delko_ionconc = 20
+xvalue("delko_ionconc","cell.delko_ionconc", 1,"", 0, 0 )
+cell.baseko_ionconc = 2.5
+xvalue("baseko_ionconc","cell.baseko_ionconc", 1,"", 0, 0 )
+cell.durko_ionconc = 10
+xvalue("durko_ionconc","cell.durko_ionconc", 1,"", 0, 0 )
+cell.koval_ionconc = 15
+xvalue("koval_ionconc","cell.koval_ionconc", 1,"", 0, 0 )
+xpanel(961,224)
+}
