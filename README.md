@@ -1,5 +1,5 @@
 # Tools
-Some useful tools for simulations
+Some useful tools for NEURON simulator based simulations.
 
 1. Two Successive Voltage Clamp (multipleSEClamps)
 2. Ionic Concentration Clamp ([K]o Clamp) (ConcClamp)
