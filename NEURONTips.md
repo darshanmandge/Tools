@@ -22,3 +22,8 @@ The file contains the predefined constants, unit prefixes and abbreviations know
 You can even find conversion rates of different currencies in the file e.g. indiarupee  .03211 $
 (No idea why they are defined here! :) )
 
+Few more resources NMODL and HOC units :
+
+    A tutorial on NMODL units: http://www.neuron.yale.edu/neuron/static/docs/units/units.html
+    Defualt Units in NEURON: http://www.neuron.yale.edu/neuron/static/docs/units/unitchart.html
+    An alternative file to the above nrnunits.lib with comments:units.dat: http://www.neuron.yale.edu/neuron/static/docs/units/units.dat 
