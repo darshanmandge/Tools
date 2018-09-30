@@ -1,3 +1,4 @@
+## Under Development
 This document will contain some important tips for running simulations in NEURON simulator.
 
 1. connect statement:
@@ -24,6 +25,13 @@ You can even find conversion rates of different currencies in the file e.g. indi
 
 Few more resources NMODL and HOC units :
 
-    A tutorial on NMODL units: http://www.neuron.yale.edu/neuron/static/docs/units/units.html
-    Defualt Units in NEURON: http://www.neuron.yale.edu/neuron/static/docs/units/unitchart.html
-    An alternative file to the above nrnunits.lib with comments:units.dat: http://www.neuron.yale.edu/neuron/static/docs/units/units.dat 
+A tutorial on NMODL units: http://www.neuron.yale.edu/neuron/static/docs/units/units.html
+Defualt Units in NEURON: http://www.neuron.yale.edu/neuron/static/docs/units/unitchart.html
+An alternative file to the above nrnunits.lib with comments:units.dat: http://www.neuron.yale.edu/neuron/static/docs/units/units.dat 
+
+
+3. SectionRef Class
+https://www.neuron.yale.edu/neuron/static/docs/help/neuron/neuron/classes/secref.html
+
+SectionRef keeps a pointer/reference to a section The reference is to the currently accessed section at the timethe object was created.
+This class allows sections to be referenced as normal object variables for assignment and passing as arguments. 
