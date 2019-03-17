@@ -19,4 +19,11 @@ See https://github.com/darshanmandge/Tools/tree/master/multipleSEClamps
 
 See https://github.com/darshanmandge/Tools/blob/master/NEURONTips.md
 
-More tools to be updated soon.
+17th March 2019
+
+4. Ramp Current Clamp 
+See https://github.com/darshanmandge/Tools/tree/master/rIClamp
+
+![ramp Current Clamp Example](https://github.com/darshanmandge/Tools/blob/master/riclamp_example.png)
+
+
