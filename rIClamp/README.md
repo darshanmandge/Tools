@@ -4,8 +4,9 @@ Modified using stim.mod for IClamp point process in NEURON installation folder (
 
 The clamp current (i) profile and the parameters are depicted below:
 
-```	      dur (ms)
-		   <-->
+```	      
+		  dur (ms)
+		 <-->
 		  ___ amp2 (nA)
 	        /
 	       /
