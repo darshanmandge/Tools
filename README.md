@@ -1,6 +1,8 @@
 # Tools
 Some useful tools for NEURON simulator based simulations.
 
+NB: These tools were made for some of my own simualtions. There is no guarantee on the code provided here. If you come across any bug, please do report it to me.
+
 1. **Two Successive Voltage Clamp** (multipleSEClamps)
 See https://github.com/darshanmandge/Tools/tree/master/multipleSEClamps
 
@@ -21,7 +23,7 @@ See https://github.com/darshanmandge/Tools/blob/master/NEURONTips.md
 
 17th March 2019
 
-4. Ramp Current Clamp 
+4. **Ramp Current Clamp**
 See https://github.com/darshanmandge/Tools/tree/master/rIClamp
 
 ![ramp Current Clamp Example](https://github.com/darshanmandge/Tools/blob/master/riclamp_example.png)
